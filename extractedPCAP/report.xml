@@ -1,0 +1,1018 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.6.1</version>
+    <build_environment>
+      <compiler>11.2.0 (11.2.0)</compiler>
+      <CPPFLAGS>-I/usr/local/include -Wdate-time -D_FORTIFY_SOURCE=2 -I/usr/local/include -DUTC_OFFSET=+0000</CPPFLAGS>
+      <CFLAGS>-g -g -O3 -ffile-prefix-map=/build/tcpflow-WmFafb/tcpflow-1.6.1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -g -O3 -ffile-prefix-map=/build/tcpflow-WmFafb/tcpflow-1.6.1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wno-address-of-packed-member</CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro -L/usr/local/lib</LDFLAGS>
+      <LIBS>-lpcap -lcairo -lfontconfig -lfreetype -lpixman-1 -lexpat -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2021-11-24T11:01:14</compilation_date>
+      <library name="boost" version="107400"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>6.5.0-25-generic</os_release>
+      <os_version>#25~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Feb 20 16:09:15 UTC 2</os_version>
+      <host>manageNode</host>
+      <arch>x86_64</arch>
+      <command_line>command line to be provided</command_line>
+      <uid>1000</uid>
+      <username>mj</username>
+      <start_time>2024-03-18T13:28:34Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//212.072.049.131.00080-192.168.001.002.03621</filename>
+      <filesize>396</filesize>
+      <tcpflow startime='2006-08-25T19:32:21.746943Z' endtime='2006-08-25T19:32:21.808426Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='212.72.49.131' dst_ipn='192.168.1.2' srcport='80' dstport='3621' packets='4' len='668' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03621-212.072.049.131.00080</filename>
+      <filesize>166</filesize>
+      <tcpflow startime='2006-08-25T19:32:21.699060Z' endtime='2006-08-25T19:32:21.808569Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='212.72.49.131' srcport='3621' dstport='80' packets='5' len='504' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.01325-195.215.008.141.33033</filename>
+      <filesize>474</filesize>
+      <tcpflow startime='2006-08-25T19:32:20.411397Z' endtime='2006-08-25T19:32:51.134723Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='195.215.8.141' srcport='1325' dstport='33033' packets='8' len='1010' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//195.215.008.141.33033-192.168.001.002.01325</filename>
+      <filesize>304</filesize>
+      <tcpflow startime='2006-08-25T19:32:20.483946Z' endtime='2006-08-25T19:32:51.142172Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='195.215.8.141' dst_ipn='192.168.1.2' srcport='33033' dstport='1325' packets='8' len='840' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02576-212.072.049.142.12350</filename>
+      <filesize>290</filesize>
+      <tcpflow startime='2006-08-25T19:32:36.779639Z' endtime='2006-08-25T19:33:07.334236Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='212.72.49.142' srcport='2576' dstport='12350' packets='10' len='958' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//212.072.049.142.12350-192.168.001.002.02576</filename>
+      <filesize>110</filesize>
+      <tcpflow startime='2006-08-25T19:32:36.823390Z' endtime='2006-08-25T19:33:07.395143Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='212.72.49.142' dst_ipn='192.168.1.2' srcport='12350' dstport='2576' packets='9' len='712' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//084.228.208.091.04464-192.168.001.002.35990</filename>
+      <filesize>47</filesize>
+      <tcpflow startime='2006-08-25T19:33:20.352311Z' endtime='2006-08-25T19:33:21.293217Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='84.228.208.91' dst_ipn='192.168.1.2' srcport='4464' dstport='35990' packets='5' out_of_order_count='1' len='335' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.35990-084.228.208.091.04464</filename>
+      <filesize>18</filesize>
+      <tcpflow startime='2006-08-25T19:33:20.352389Z' endtime='2006-08-25T19:33:21.293365Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='84.228.208.91' srcport='35990' dstport='4464' packets='5' len='300' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//084.228.208.091.04464-192.168.001.002.35990c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:33:21.425554Z' endtime='2006-08-25T19:33:21.425554Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='84.228.208.91' dst_ipn='192.168.1.2' srcport='4464' dstport='35990' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02577-212.072.049.142.12350</filename>
+      <filesize>293</filesize>
+      <tcpflow startime='2006-08-25T19:33:15.875973Z' endtime='2006-08-25T19:33:50.405708Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='212.72.49.142' srcport='2577' dstport='12350' packets='10' len='961' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//212.072.049.142.12350-192.168.001.002.02577</filename>
+      <filesize>63</filesize>
+      <tcpflow startime='2006-08-25T19:33:15.918835Z' endtime='2006-08-25T19:33:50.467586Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='212.72.49.142' dst_ipn='192.168.1.2' srcport='12350' dstport='2577' packets='9' len='665' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//084.121.082.031.32333-192.168.001.002.02946</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.732678Z' endtime='2006-08-25T19:33:52.732678Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='84.121.82.31' dst_ipn='192.168.1.2' srcport='32333' dstport='2946' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02627-213.165.187.162.60229</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.419030Z' endtime='2006-08-25T19:33:52.765329Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='213.165.187.162' srcport='2627' dstport='60229' packets='4' len='278' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.01367-081.184.127.148.29344</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.418565Z' endtime='2006-08-25T19:33:52.765442Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='81.184.127.148' srcport='1367' dstport='29344' packets='4' len='278' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.01630-069.205.247.140.09908</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.418486Z' endtime='2006-08-25T19:33:52.765474Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.205.247.140' srcport='1630' dstport='9908' packets='4' len='278' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//081.184.127.148.29344-192.168.001.002.01367</filename>
+      <filesize>138</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.585039Z' endtime='2006-08-25T19:33:52.893064Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='81.184.127.148' dst_ipn='192.168.1.2' srcport='29344' dstport='1367' packets='4' len='414' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.418897Z' endtime='2006-08-25T19:33:53.051342Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='196.40.10.146' srcport='2327' dstport='29832' packets='2' len='128' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.418835Z' endtime='2006-08-25T19:33:53.121816Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='74.130.44.22' srcport='1136' dstport='33667' packets='2' len='128' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.419096Z' endtime='2006-08-25T19:33:53.216157Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='218.111.60.108' srcport='2167' dstport='17197' packets='2' len='128' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.205.247.140.09908-192.168.001.002.01630</filename>
+      <filesize>138</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.590182Z' endtime='2006-08-25T19:33:53.339756Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.205.247.140' dst_ipn='192.168.1.2' srcport='9908' dstport='1630' packets='4' len='414' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.732961Z' endtime='2006-08-25T19:33:53.627450Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='190.37.32.155' srcport='4244' dstport='8075' packets='2' len='128' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.418702Z' endtime='2006-08-25T19:33:54.139816Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='200.55.99.252' srcport='2533' dstport='59605' packets='2' len='128' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//190.038.033.017.02201-192.168.001.002.59049</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:33:54.124970Z' endtime='2006-08-25T19:33:55.752283Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='190.38.33.17' dst_ipn='192.168.1.2' srcport='2201' dstport='59049' packets='3' out_of_order_count='1' len='182' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:54.125051Z' endtime='2006-08-25T19:33:55.752469Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='190.38.33.17' srcport='59049' dstport='2201' packets='2' len='116' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02996-068.095.198.126.01928</filename>
+      <filesize>2</filesize>
+      <tcpflow startime='2006-08-25T19:31:44.872691Z' endtime='2006-08-25T19:34:05.095460Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.95.198.126' srcport='2996' dstport='1928' packets='9' len='601' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//070.161.237.088.01546-192.168.001.002.02015</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.212063Z' endtime='2006-08-25T19:34:05.321343Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='70.161.237.88' dst_ipn='192.168.1.2' srcport='1546' dstport='2015' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//070.161.237.088.01546-192.168.001.002.02015c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.321978Z' endtime='2006-08-25T19:34:05.321978Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='70.161.237.88' dst_ipn='192.168.1.2' srcport='1546' dstport='2015' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//070.160.092.135.02267-192.168.001.002.03445</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.222624Z' endtime='2006-08-25T19:34:05.333887Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='70.160.92.135' dst_ipn='192.168.1.2' srcport='2267' dstport='3445' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//070.160.092.135.02267-192.168.001.002.03445c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.334344Z' endtime='2006-08-25T19:34:05.334344Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='70.160.92.135' dst_ipn='192.168.1.2' srcport='2267' dstport='3445' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.191.115.185.03315-192.168.001.002.01531</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.223311Z' endtime='2006-08-25T19:34:05.338378Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.191.115.185' dst_ipn='192.168.1.2' srcport='3315' dstport='1531' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.191.115.185.03315-192.168.001.002.01531c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.338667Z' endtime='2006-08-25T19:34:05.338667Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.191.115.185' dst_ipn='192.168.1.2' srcport='3315' dstport='1531' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//070.181.220.080.03336-192.168.001.002.03938</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.270896Z' endtime='2006-08-25T19:34:05.432956Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='70.181.220.80' dst_ipn='192.168.1.2' srcport='3336' dstport='3938' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//070.181.220.080.03336-192.168.001.002.03938c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.433470Z' endtime='2006-08-25T19:34:05.433470Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='70.181.220.80' dst_ipn='192.168.1.2' srcport='3336' dstport='3938' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.114.183.008.02997-192.168.001.002.03061</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.452258Z' endtime='2006-08-25T19:34:05.452258Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.114.183.8' dst_ipn='192.168.1.2' srcport='2997' dstport='3061' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//070.160.094.139.02362-192.168.001.002.03194</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.439421Z' endtime='2006-08-25T19:34:05.557823Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='70.160.94.139' dst_ipn='192.168.1.2' srcport='2362' dstport='3194' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//070.160.094.139.02362-192.168.001.002.03194c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.558297Z' endtime='2006-08-25T19:34:05.558297Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='70.160.94.139' dst_ipn='192.168.1.2' srcport='2362' dstport='3194' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.022.073.206.01742-192.168.001.002.02289</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.639896Z' endtime='2006-08-25T19:34:05.639896Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.22.73.206' dst_ipn='192.168.1.2' srcport='1742' dstport='2289' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//070.036.075.098.01214-192.168.001.002.02293</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.545594Z' endtime='2006-08-25T19:34:05.717035Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='70.36.75.98' dst_ipn='192.168.1.2' srcport='1214' dstport='2293' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//082.040.035.124.02133-192.168.001.002.02367</filename>
+      <filesize>1619</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.610375Z' endtime='2006-08-25T19:34:05.934306Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='82.40.35.124' dst_ipn='192.168.1.2' srcport='2133' dstport='2367' packets='5' len='1961' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02367-082.040.035.124.02133</filename>
+      <filesize>37</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.460798Z' endtime='2006-08-25T19:34:05.934443Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='82.40.35.124' srcport='2367' dstport='2133' packets='7' len='507' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//082.040.035.124.02133-192.168.001.002.02367c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.098420Z' endtime='2006-08-25T19:34:06.098420Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='82.40.35.124' dst_ipn='192.168.1.2' srcport='2133' dstport='2367' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.055.027.139.03740-192.168.001.002.03391</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.049492Z' endtime='2006-08-25T19:34:06.158027Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.55.27.139' dst_ipn='192.168.1.2' srcport='3740' dstport='3391' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.055.027.139.03740-192.168.001.002.03391c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.158496Z' endtime='2006-08-25T19:34:06.158496Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.55.27.139' dst_ipn='192.168.1.2' srcport='3740' dstport='3391' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.247.087.005.02680-192.168.001.002.02327</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.308897Z' endtime='2006-08-25T19:34:06.308897Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.247.87.5' dst_ipn='192.168.1.2' srcport='2680' dstport='2327' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//071.196.236.185.02223-192.168.001.002.03033</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.321595Z' endtime='2006-08-25T19:34:06.479683Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='71.196.236.185' dst_ipn='192.168.1.2' srcport='2223' dstport='3033' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//071.196.236.185.02223-192.168.001.002.03033c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.480761Z' endtime='2006-08-25T19:34:06.480761Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='71.196.236.185' dst_ipn='192.168.1.2' srcport='2223' dstport='3033' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//072.197.060.203.03926-192.168.001.002.02890</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.479022Z' endtime='2006-08-25T19:34:06.641049Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='72.197.60.203' dst_ipn='192.168.1.2' srcport='3926' dstport='2890' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//072.197.060.203.03926-192.168.001.002.02890c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.641330Z' endtime='2006-08-25T19:34:06.641330Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='72.197.60.203' dst_ipn='192.168.1.2' srcport='3926' dstport='2890' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.141.046.005.02998-192.168.001.002.02809</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.614101Z' endtime='2006-08-25T19:34:06.737547Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.141.46.5' dst_ipn='192.168.1.2' srcport='2998' dstport='2809' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.141.046.005.02998-192.168.001.002.02809c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.737995Z' endtime='2006-08-25T19:34:06.737995Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.141.46.5' dst_ipn='192.168.1.2' srcport='2998' dstport='2809' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.125.186.144.01948-192.168.001.002.02080</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.760546Z' endtime='2006-08-25T19:34:06.870631Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.125.186.144' dst_ipn='192.168.1.2' srcport='1948' dstport='2080' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.125.186.144.01948-192.168.001.002.02080c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.871169Z' endtime='2006-08-25T19:34:06.871169Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.125.186.144' dst_ipn='192.168.1.2' srcport='1948' dstport='2080' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//172.164.231.151.32656-192.168.001.002.04048</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.090558Z' endtime='2006-08-25T19:34:07.090558Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='172.164.231.151' dst_ipn='192.168.1.2' srcport='32656' dstport='4048' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.056.113.162.03573-192.168.001.002.04360</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.014177Z' endtime='2006-08-25T19:34:07.154474Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.56.113.162' dst_ipn='192.168.1.2' srcport='3573' dstport='4360' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.056.113.162.03573-192.168.001.002.04360c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.154759Z' endtime='2006-08-25T19:34:07.154759Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.56.113.162' dst_ipn='192.168.1.2' srcport='3573' dstport='4360' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.165.090.216.01245-192.168.001.002.03998</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.215190Z' endtime='2006-08-25T19:34:07.335516Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.165.90.216' dst_ipn='192.168.1.2' srcport='1245' dstport='3998' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.165.090.216.01245-192.168.001.002.03998c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.335974Z' endtime='2006-08-25T19:34:07.335974Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.165.90.216' dst_ipn='192.168.1.2' srcport='1245' dstport='3998' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.250.183.056.02704-192.168.001.002.02194</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.268099Z' endtime='2006-08-25T19:34:07.376408Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.250.183.56' dst_ipn='192.168.1.2' srcport='2704' dstport='2194' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.250.183.056.02704-192.168.001.002.02194c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.377033Z' endtime='2006-08-25T19:34:07.377033Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.250.183.56' dst_ipn='192.168.1.2' srcport='2704' dstport='2194' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.141.046.005.02998-192.168.001.002.02817</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:20.243859Z' endtime='2006-08-25T19:34:20.384311Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.141.46.5' dst_ipn='192.168.1.2' srcport='2998' dstport='2817' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.141.046.005.02998-192.168.001.002.02817c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:20.384825Z' endtime='2006-08-25T19:34:20.384825Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.141.46.5' dst_ipn='192.168.1.2' srcport='2998' dstport='2817' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.244.172.248.03301-192.168.001.002.02717</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:36.246909Z' endtime='2006-08-25T19:34:36.375389Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.244.172.248' dst_ipn='192.168.1.2' srcport='3301' dstport='2717' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.244.172.248.03301-192.168.001.002.02717c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:36.375938Z' endtime='2006-08-25T19:34:36.375938Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.244.172.248' dst_ipn='192.168.1.2' srcport='3301' dstport='2717' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//084.025.172.195.32656-192.168.001.002.03719</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:36.427930Z' endtime='2006-08-25T19:34:36.427930Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='84.25.172.195' dst_ipn='192.168.1.2' srcport='32656' dstport='3719' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.038.164.187.03907-192.168.001.002.03868</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:34:36.549923Z' endtime='2006-08-25T19:34:37.064017Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.38.164.187' dst_ipn='192.168.1.2' srcport='3907' dstport='3868' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.01312-068.206.150.243.57322</filename>
+      <filesize>282</filesize>
+      <tcpflow startime='2006-08-25T19:32:19.078236Z' endtime='2006-08-25T19:35:07.470456Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.206.150.243' srcport='1312' dstport='57322' packets='27' len='2072' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.206.150.243.57322-192.168.001.002.01312</filename>
+      <filesize>1971</filesize>
+      <tcpflow startime='2006-08-25T19:32:19.225313Z' endtime='2006-08-25T19:35:07.620775Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.206.150.243' dst_ipn='192.168.1.2' srcport='57322' dstport='1312' packets='17' len='3105' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.175.021.149.02434-192.168.001.002.01611</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.257700Z' endtime='2006-08-25T19:35:36.257700Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.175.21.149' dst_ipn='192.168.1.2' srcport='2434' dstport='1611' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.163.059.104.03777-192.168.001.002.04786</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.266782Z' endtime='2006-08-25T19:35:36.411576Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.163.59.104' dst_ipn='192.168.1.2' srcport='3777' dstport='4786' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.163.059.104.03777-192.168.001.002.04786c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.412245Z' endtime='2006-08-25T19:35:36.412245Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.163.59.104' dst_ipn='192.168.1.2' srcport='3777' dstport='4786' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//072.197.060.203.03926-192.168.001.002.01487</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.288637Z' endtime='2006-08-25T19:35:36.449225Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='72.197.60.203' dst_ipn='192.168.1.2' srcport='3926' dstport='1487' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//072.197.060.203.03926-192.168.001.002.01487c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.449740Z' endtime='2006-08-25T19:35:36.449740Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='72.197.60.203' dst_ipn='192.168.1.2' srcport='3926' dstport='1487' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04786-067.163.059.104.03777</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.113100Z' endtime='2006-08-25T19:35:36.496127Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='67.163.59.104' srcport='4786' dstport='3777' packets='4' len='272' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.163.059.104.03777-192.168.001.002.04786c2</filename>
+      <filesize>20</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.496087Z' endtime='2006-08-25T19:35:36.496615Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.163.59.104' dst_ipn='192.168.1.2' srcport='3777' dstport='4786' packets='2' len='140' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.163.059.104.03777-192.168.001.002.04786c3</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.497576Z' endtime='2006-08-25T19:35:36.497576Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.163.59.104' dst_ipn='192.168.1.2' srcport='3777' dstport='4786' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//071.228.044.157.03167-192.168.001.002.04857</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.579729Z' endtime='2006-08-25T19:35:36.705320Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='71.228.44.157' dst_ipn='192.168.1.2' srcport='3167' dstport='4857' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//071.228.044.157.03167-192.168.001.002.04857c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.705911Z' endtime='2006-08-25T19:35:36.705911Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='71.228.44.157' dst_ipn='192.168.1.2' srcport='3167' dstport='4857' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//086.003.249.041.02525-192.168.001.002.04109</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:39.237952Z' endtime='2006-08-25T19:35:39.237952Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='86.3.249.41' dst_ipn='192.168.1.2' srcport='2525' dstport='4109' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.185.017.200.01569-192.168.001.002.04502</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:51.849365Z' endtime='2006-08-25T19:35:51.849365Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.185.17.200' dst_ipn='192.168.1.2' srcport='1569' dstport='4502' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.084.043.172.01454-192.168.001.002.03901</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:54.387394Z' endtime='2006-08-25T19:35:54.387394Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.84.43.172' dst_ipn='192.168.1.2' srcport='1454' dstport='3901' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.187.107.099.02367-192.168.001.002.04224</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:54.499721Z' endtime='2006-08-25T19:35:54.605310Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.187.107.99' dst_ipn='192.168.1.2' srcport='2367' dstport='4224' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.187.107.099.02367-192.168.001.002.04224c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:54.605593Z' endtime='2006-08-25T19:35:54.605593Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.187.107.99' dst_ipn='192.168.1.2' srcport='2367' dstport='4224' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.053.074.129.03058-192.168.001.002.03279</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:35:54.755930Z' endtime='2006-08-25T19:35:54.891848Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.53.74.129' dst_ipn='192.168.1.2' srcport='3058' dstport='3279' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02584-066.061.038.114.32656</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:35:54.892322Z' endtime='2006-08-25T19:36:05.025146Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='66.61.38.114' srcport='2584' dstport='32656' packets='4' len='284' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.195.103.120.02685-192.168.001.002.03508</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:05.144786Z' endtime='2006-08-25T19:36:05.256965Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.195.103.120' dst_ipn='192.168.1.2' srcport='2685' dstport='3508' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.195.103.120.02685-192.168.001.002.03508c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:05.257432Z' endtime='2006-08-25T19:36:05.257432Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.195.103.120' dst_ipn='192.168.1.2' srcport='2685' dstport='3508' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.000.172.033.01108-192.168.001.002.03634</filename>
+      <filesize>12509</filesize>
+      <tcpflow startime='2006-08-25T19:36:06.867215Z' endtime='2006-08-25T19:36:07.023664Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.0.172.33' dst_ipn='192.168.1.2' srcport='1108' dstport='3634' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//072.201.060.177.02562-192.168.001.002.01695</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.021710Z' endtime='2006-08-25T19:36:07.181009Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='72.201.60.177' dst_ipn='192.168.1.2' srcport='2562' dstport='1695' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//072.201.060.177.02562-192.168.001.002.01695c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.181450Z' endtime='2006-08-25T19:36:07.181450Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='72.201.60.177' dst_ipn='192.168.1.2' srcport='2562' dstport='1695' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.084.148.173.03651-192.168.001.002.01605</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.313715Z' endtime='2006-08-25T19:36:07.438291Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.84.148.173' dst_ipn='192.168.1.2' srcport='3651' dstport='1605' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.084.148.173.03651-192.168.001.002.01605c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.438860Z' endtime='2006-08-25T19:36:07.438860Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.84.148.173' dst_ipn='192.168.1.2' srcport='3651' dstport='1605' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.080.071.219.03539-192.168.001.002.03746</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.554172Z' endtime='2006-08-25T19:36:07.660732Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.80.71.219' dst_ipn='192.168.1.2' srcport='3539' dstport='3746' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.080.071.219.03539-192.168.001.002.03746c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.661230Z' endtime='2006-08-25T19:36:07.661230Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.80.71.219' dst_ipn='192.168.1.2' srcport='3539' dstport='3746' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//212.072.049.131.00080-192.168.001.002.04542</filename>
+      <filesize>396</filesize>
+      <tcpflow startime='2006-08-25T19:36:08.723667Z' endtime='2006-08-25T19:36:08.783384Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='212.72.49.131' dst_ipn='192.168.1.2' srcport='80' dstport='4542' packets='4' len='668' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04542-212.072.049.131.00080</filename>
+      <filesize>166</filesize>
+      <tcpflow startime='2006-08-25T19:36:08.679047Z' endtime='2006-08-25T19:36:08.783744Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='212.72.49.131' srcport='4542' dstport='80' packets='5' len='504' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//189.132.176.243.02330-192.168.001.002.35990</filename>
+      <filesize>88</filesize>
+      <tcpflow startime='2006-08-25T19:36:10.679034Z' endtime='2006-08-25T19:36:11.705867Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='189.132.176.243' dst_ipn='192.168.1.2' srcport='2330' dstport='35990' packets='6' out_of_order_count='2' len='432' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.35990-189.132.176.243.02330</filename>
+      <filesize>18</filesize>
+      <tcpflow startime='2006-08-25T19:36:10.679112Z' endtime='2006-08-25T19:36:11.711127Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='189.132.176.243' srcport='35990' dstport='2330' packets='6' len='350' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.01092-067.071.069.121.12492</filename>
+      <filesize>161</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.055356Z' endtime='2006-08-25T19:36:20.349489Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='67.71.69.121' srcport='1092' dstport='12492' packets='18' len='1153' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04125-212.072.049.141.33033</filename>
+      <filesize>417</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.729828Z' endtime='2006-08-25T19:36:20.349533Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='212.72.49.141' srcport='4125' dstport='33033' packets='7' len='887' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//212.072.049.141.33033-192.168.001.002.04125</filename>
+      <filesize>227</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.776714Z' endtime='2006-08-25T19:36:20.397052Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='212.72.49.141' dst_ipn='192.168.1.2' srcport='33033' dstport='4125' packets='6' len='631' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//067.071.069.121.12492-192.168.001.002.01092</filename>
+      <filesize>1554</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.168217Z' endtime='2006-08-25T19:36:20.462098Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='67.71.69.121' dst_ipn='192.168.1.2' srcport='12492' dstport='1092' packets='12' out_of_order_count='2' len='2226' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.234.020.058.03150-192.168.001.002.03226</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.331256Z' endtime='2006-08-25T19:36:22.331256Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.234.20.58' dst_ipn='192.168.1.2' srcport='3150' dstport='3226' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.113.180.235.02377-192.168.001.002.04921</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.300726Z' endtime='2006-08-25T19:36:22.409552Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.113.180.235' dst_ipn='192.168.1.2' srcport='2377' dstport='4921' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.113.180.235.02377-192.168.001.002.04921c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.410532Z' endtime='2006-08-25T19:36:22.410532Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.113.180.235' dst_ipn='192.168.1.2' srcport='2377' dstport='4921' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.188.222.016.01217-192.168.001.002.04516</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.304657Z' endtime='2006-08-25T19:36:22.414491Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.188.222.16' dst_ipn='192.168.1.2' srcport='1217' dstport='4516' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.188.222.016.01217-192.168.001.002.04516c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.414773Z' endtime='2006-08-25T19:36:22.414773Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.188.222.16' dst_ipn='192.168.1.2' srcport='1217' dstport='4516' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.047.020.134.02229-192.168.001.002.03942</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.545690Z' endtime='2006-08-25T19:36:22.545690Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.47.20.134' dst_ipn='192.168.1.2' srcport='2229' dstport='3942' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.164.189.012.02057-192.168.001.002.03364</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.541775Z' endtime='2006-08-25T19:36:22.654200Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.164.189.12' dst_ipn='192.168.1.2' srcport='2057' dstport='3364' packets='2' len='138' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//189.132.176.243.02330-192.168.001.002.35990c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:36:11.902239Z' endtime='2006-08-25T19:36:27.067189Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='189.132.176.243' dst_ipn='192.168.1.2' srcport='2330' dstport='35990' packets='2' out_of_order_count='1' len='120' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03364-069.164.189.012.02057</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.410328Z' endtime='2006-08-25T19:36:22.542512Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.164.189.12' srcport='3364' dstport='2057' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.410165Z' endtime='2006-08-25T19:36:22.410165Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.47.20.134' srcport='3942' dstport='2229' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.410001Z' endtime='2006-08-25T19:36:25.408999Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.242.44.13' srcport='4655' dstport='1830' packets='2' len='148' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.181955Z' endtime='2006-08-25T19:36:22.181955Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.234.20.58' srcport='3226' dstport='3150' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04921-069.113.180.235.02377</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.181743Z' endtime='2006-08-25T19:36:22.301041Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.113.180.235' srcport='4921' dstport='2377' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03746-067.080.071.219.03539</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.439287Z' endtime='2006-08-25T19:36:07.554395Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='67.80.71.219' srcport='3746' dstport='3539' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.01605-067.084.148.173.03651</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.181593Z' endtime='2006-08-25T19:36:07.313983Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='67.84.148.173' srcport='1605' dstport='3651' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:55.025751Z' endtime='2006-08-25T19:36:05.162117Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='66.61.38.114' dst_ipn='192.168.1.2' srcport='32656' dstport='2584' packets='3' len='210' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03279-024.053.074.129.03058</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:35:54.605775Z' endtime='2006-08-25T19:35:54.756213Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.53.74.129' srcport='3279' dstport='3058' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04224-024.187.107.099.02367</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:35:54.387835Z' endtime='2006-08-25T19:35:54.499990Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.187.107.99' srcport='4224' dstport='2367' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:51.849823Z' endtime='2006-08-25T19:36:00.847739Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.52.71.135' srcport='1816' dstport='2931' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:51.705809Z' endtime='2006-08-25T19:35:51.705809Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.185.17.200' srcport='4502' dstport='1569' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.181403Z' endtime='2006-08-25T19:36:16.179403Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='72.40.133.78' srcport='4776' dstport='32656' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:51.705652Z' endtime='2006-08-25T19:36:00.703773Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='83.87.11.43' srcport='2896' dstport='2050' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:51.705482Z' endtime='2006-08-25T19:36:00.703751Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.70.72.32' srcport='3022' dstport='1458' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:51.111638Z' endtime='2006-08-25T19:35:54.110753Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='74.134.164.121' srcport='3098' dstport='3398' packets='2' len='148' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04857-071.228.044.157.03167</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.449610Z' endtime='2006-08-25T19:35:36.579963Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='71.228.44.157' srcport='4857' dstport='3167' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03634-068.000.172.033.01108</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:36:06.704210Z' endtime='2006-08-25T19:36:06.867560Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.0.172.33' srcport='3634' dstport='1108' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.258302Z' endtime='2006-08-25T19:35:36.258302Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='86.3.249.41' srcport='4109' dstport='2525' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.01487-072.197.060.203.03926</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.112956Z' endtime='2006-08-25T19:35:36.288910Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='72.197.60.203' srcport='1487' dstport='3926' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03868-068.038.164.187.03907</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:36.428343Z' endtime='2006-08-25T19:34:36.915490Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.38.164.187' srcport='3868' dstport='3907' packets='4' out_of_order_count='1' len='296' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:54.242187Z' endtime='2006-08-25T19:35:54.242187Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='67.84.43.172' srcport='3901' dstport='1454' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.074.190.205.18050-192.168.001.002.04264</filename>
+      <filesize>190</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.559738Z' endtime='2006-08-25T19:33:55.795674Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.74.190.205' dst_ipn='192.168.1.2' srcport='18050' dstport='4264' packets='5' len='532' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:53.121760Z' endtime='2006-08-25T19:33:53.121760Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='74.130.44.22' dst_ipn='192.168.1.2' srcport='33667' dstport='1136' packets='1' len='78' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.449803Z' endtime='2006-08-25T19:35:45.448080Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.175.213.26' srcport='4048' dstport='3588' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03998-067.165.090.216.01245</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.091012Z' endtime='2006-08-25T19:34:07.215417Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='67.165.90.216' srcport='3998' dstport='1245' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02967-065.190.006.124.47452</filename>
+      <filesize>9</filesize>
+      <tcpflow startime='2006-08-25T19:34:36.267633Z' endtime='2006-08-25T19:34:37.683443Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='65.190.6.124' srcport='2967' dstport='47452' packets='3' out_of_order_count='1' len='216' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:50.940963Z' endtime='2006-08-25T19:35:51.494972Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='86.128.116.241' dst_ipn='192.168.1.2' srcport='2776' dstport='445' packets='2' len='156' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:53.051286Z' endtime='2006-08-25T19:33:53.051286Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='196.40.10.146' dst_ipn='192.168.1.2' srcport='29832' dstport='2327' packets='1' len='78' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//065.190.006.124.47452-192.168.001.002.02967</filename>
+      <filesize>204</filesize>
+      <tcpflow startime='2006-08-25T19:32:11.228995Z' endtime='2006-08-25T19:34:37.683398Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='65.190.6.124' dst_ipn='192.168.1.2' srcport='47452' dstport='2967' packets='3' len='402' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03033-071.196.236.185.02223</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.158502Z' endtime='2006-08-25T19:34:06.325464Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='71.196.236.185' srcport='3033' dstport='2223' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.418629Z' endtime='2006-08-25T19:33:52.418629Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='66.161.193.72' srcport='1040' dstport='33155' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04264-068.074.190.205.18050</filename>
+      <filesize>65</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.418771Z' endtime='2006-08-25T19:33:55.795701Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.74.190.205' srcport='4264' dstport='18050' packets='8' len='601' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//212.204.214.114.06667-192.168.001.002.02848</filename>
+      <filesize>101914</filesize>
+      <tcpflow startime='2006-08-25T19:31:06.792053Z' endtime='2006-08-25T19:36:29.404417Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='212.204.214.114' dst_ipn='192.168.1.2' srcport='6667' dstport='2848' packets='140' out_of_order_count='1' len='111243' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:36:05.257404Z' endtime='2006-08-25T19:36:14.255697Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.171.31.88' srcport='1643' dstport='3304' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04984-172.200.160.242.11352</filename>
+      <filesize>195</filesize>
+      <tcpflow startime='2006-08-25T19:31:19.795543Z' endtime='2006-08-25T19:36:20.559530Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='172.200.160.242' srcport='4984' dstport='11352' packets='39' len='2769' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02817-069.141.046.005.02998</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:20.095385Z' endtime='2006-08-25T19:34:20.244132Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.141.46.5' srcport='2817' dstport='2998' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03445-070.160.092.135.02267</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.096589Z' endtime='2006-08-25T19:34:05.223496Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='70.160.92.135' srcport='3445' dstport='2267' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:36:07.181751Z' endtime='2006-08-25T19:36:16.180404Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.74.180.249' srcport='4529' dstport='1258' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:31:20.589453Z' endtime='2006-08-25T19:31:23.536292Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='86.128.187.110' dst_ipn='192.168.1.2' srcport='4048' dstport='139' packets='2' len='124' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:36.375804Z' endtime='2006-08-25T19:34:36.375804Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='84.25.172.195' srcport='3719' dstport='32656' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//172.200.160.242.11352-192.168.001.002.04984</filename>
+      <filesize>1266</filesize>
+      <tcpflow startime='2006-08-25T19:31:11.209765Z' endtime='2006-08-25T19:36:20.559469Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='172.200.160.242' dst_ipn='192.168.1.2' srcport='11352' dstport='4984' packets='41' len='3972' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.418961Z' endtime='2006-08-25T19:33:52.418961Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='84.121.82.31' srcport='2946' dstport='32333' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03863-024.177.122.079.08022</filename>
+      <filesize>275</filesize>
+      <tcpflow startime='2006-08-25T19:31:21.162336Z' endtime='2006-08-25T19:36:24.618231Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.177.122.79' srcport='3863' dstport='8022' packets='26' len='1991' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//024.177.122.079.08022-192.168.001.002.03863</filename>
+      <filesize>405</filesize>
+      <tcpflow startime='2006-08-25T19:31:20.963102Z' endtime='2006-08-25T19:36:24.947066Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='24.177.122.79' dst_ipn='192.168.1.2' srcport='8022' dstport='3863' packets='27' len='2187' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.095.198.126.01928-192.168.001.002.02996</filename>
+      <filesize>8</filesize>
+      <tcpflow startime='2006-08-25T19:31:20.065128Z' endtime='2006-08-25T19:31:45.095673Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.95.198.126' dst_ipn='192.168.1.2' srcport='1928' dstport='2996' packets='2' len='140' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04026-071.010.179.129.14232</filename>
+      <filesize>218</filesize>
+      <tcpflow startime='2006-08-25T19:31:10.197020Z' endtime='2006-08-25T19:36:25.325535Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='71.10.179.129' srcport='4026' dstport='14232' packets='42' len='3002' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:53.627396Z' endtime='2006-08-25T19:33:53.627396Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='190.37.32.155' dst_ipn='192.168.1.2' srcport='8075' dstport='4244' packets='1' len='78' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.558269Z' endtime='2006-08-25T19:34:14.556889Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.174.241.72' srcport='1700' dstport='2945' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02194-069.250.183.056.02704</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.154836Z' endtime='2006-08-25T19:34:07.268360Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.250.183.56' srcport='2194' dstport='2704' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//193.150.239.120.11421-192.168.001.002.03544</filename>
+      <filesize>204</filesize>
+      <tcpflow startime='2006-08-25T19:32:30.419598Z' endtime='2006-08-25T19:34:36.377516Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='193.150.239.120' dst_ipn='192.168.1.2' srcport='11421' dstport='3544' packets='2' len='336' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04516-024.188.222.016.01217</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:36:22.182118Z' endtime='2006-08-25T19:36:22.304790Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.188.222.16' srcport='4516' dstport='1217' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.335922Z' endtime='2006-08-25T19:34:16.333617Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='82.235.241.187' srcport='3334' dstport='3050' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:31:19.548699Z' endtime='2006-08-25T19:31:19.548699Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='86.128.100.24' dst_ipn='192.168.1.2' srcport='2029' dstport='135' packets='1' len='78' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//068.032.070.119.01215-192.168.001.002.03563</filename>
+      <filesize>60</filesize>
+      <tcpflow startime='2006-08-25T19:31:35.110460Z' endtime='2006-08-25T19:35:35.239245Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='68.32.70.119' dst_ipn='192.168.1.2' srcport='1215' dstport='3563' packets='6' len='456' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:53.216089Z' endtime='2006-08-25T19:33:53.216089Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='218.111.60.108' dst_ipn='192.168.1.2' srcport='17197' dstport='2167' packets='1' len='78' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.01531-024.191.115.185.03315</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.096444Z' endtime='2006-08-25T19:34:05.223572Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.191.115.185' srcport='1531' dstport='3315' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:53.648399Z' endtime='2006-08-25T19:33:54.092875Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='86.128.194.14' dst_ipn='192.168.1.2' srcport='1845' dstport='445' packets='2' len='156' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:14.146415Z' endtime='2006-08-25T19:35:14.623305Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='86.128.67.61' dst_ipn='192.168.1.2' srcport='2617' dstport='445' packets='2' len='156' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.248.108.013.22960-192.168.001.002.03663</filename>
+      <filesize>124</filesize>
+      <tcpflow startime='2006-08-25T19:34:00.525379Z' endtime='2006-08-25T19:35:55.463373Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.248.108.13' dst_ipn='192.168.1.2' srcport='22960' dstport='3663' packets='2' len='256' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:54.139768Z' endtime='2006-08-25T19:33:54.139768Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='200.55.99.252' dst_ipn='192.168.1.2' srcport='59605' dstport='2533' packets='1' len='78' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02015-070.161.237.088.01546</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.095967Z' endtime='2006-08-25T19:34:05.212360Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='70.161.237.88' srcport='2015' dstport='1546' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.096139Z' endtime='2006-08-25T19:34:14.093957Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.48.150.22' srcport='1113' dstport='2023' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//071.010.179.129.14232-192.168.001.002.04026</filename>
+      <filesize>1290</filesize>
+      <tcpflow startime='2006-08-25T19:31:09.998295Z' endtime='2006-08-25T19:36:25.563309Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='71.10.179.129' dst_ipn='192.168.1.2' srcport='14232' dstport='4026' packets='43' out_of_order_count='1' len='4171' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03563-068.032.070.119.01215</filename>
+      <filesize>24</filesize>
+      <tcpflow startime='2006-08-25T19:31:34.981368Z' endtime='2006-08-25T19:35:35.278614Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.32.70.119' srcport='3563' dstport='1215' packets='9' len='618' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03938-070.181.220.080.03336</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.096284Z' endtime='2006-08-25T19:34:05.272521Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='70.181.220.80' srcport='3938' dstport='3336' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:13.377478Z' endtime='2006-08-25T19:34:13.377478Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='86.128.79.38' dst_ipn='192.168.1.2' srcport='22995' dstport='139' packets='1' len='62' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:33:52.583126Z' endtime='2006-08-25T19:33:52.889992Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='213.165.187.162' dst_ipn='192.168.1.2' srcport='60229' dstport='2627' packets='3' len='210' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03194-070.160.094.139.02362</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.321759Z' endtime='2006-08-25T19:34:05.449552Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='70.160.94.139' srcport='3194' dstport='2362' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03663-069.248.108.013.22960</filename>
+      <filesize>9</filesize>
+      <tcpflow startime='2006-08-25T19:35:55.040804Z' endtime='2006-08-25T19:35:55.463407Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.248.108.13' srcport='3663' dstport='22960' packets='2' len='141' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02848-212.204.214.114.06667</filename>
+      <filesize>622</filesize>
+      <tcpflow startime='2006-08-25T19:31:06.654692Z' endtime='2006-08-25T19:36:29.404468Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='212.204.214.114' srcport='2848' dstport='6667' packets='159' len='11116' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03544-193.150.239.120.11421</filename>
+      <filesize>9</filesize>
+      <tcpflow startime='2006-08-25T19:34:36.266757Z' endtime='2006-08-25T19:34:36.377547Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='193.150.239.120' srcport='3544' dstport='11421' packets='2' len='141' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.334281Z' endtime='2006-08-25T19:34:05.334281Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.114.183.8' srcport='3061' dstport='2997' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02809-069.141.046.005.02998</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.480035Z' endtime='2006-08-25T19:34:06.614450Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.141.46.5' srcport='2809' dstport='2998' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02293-070.036.075.098.01214</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.350372Z' endtime='2006-08-25T19:34:05.546983Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='70.36.75.98' srcport='2293' dstport='1214' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02080-024.125.186.144.01948</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.641521Z' endtime='2006-08-25T19:34:06.760713Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.125.186.144' srcport='2080' dstport='1948' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.433406Z' endtime='2006-08-25T19:34:05.433406Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.22.73.206' srcport='2289' dstport='1742' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.640919Z' endtime='2006-08-25T19:34:05.640919Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='24.247.87.5' srcport='2327' dstport='2680' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03612-069.160.006.018.03908</filename>
+      <filesize>76</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.717467Z' endtime='2006-08-25T19:36:07.549700Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.160.6.18' srcport='3612' dstport='3908' packets='15' out_of_order_count='3' len='1121' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03391-068.055.027.139.03740</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:05.934900Z' endtime='2006-08-25T19:34:06.049903Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.55.27.139' srcport='3391' dstport='3740' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.03508-068.195.103.120.02685</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:36:05.025568Z' endtime='2006-08-25T19:36:05.145121Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.195.103.120' srcport='3508' dstport='2685' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//069.160.006.018.03908-192.168.001.002.03612</filename>
+      <filesize>1773</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.066040Z' endtime='2006-08-25T19:36:07.509749Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='69.160.6.18' dst_ipn='192.168.1.2' srcport='3908' dstport='3612' packets='9' len='2379' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.705766Z' endtime='2006-08-25T19:35:45.704052Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='70.34.2.250' srcport='1062' dstport='1752' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02890-072.197.060.203.03926</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.309544Z' endtime='2006-08-25T19:34:06.479361Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='72.197.60.203' srcport='2890' dstport='3926' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.113247Z' endtime='2006-08-25T19:35:36.113247Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='67.175.21.149' srcport='1611' dstport='2434' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:45.919861Z' endtime='2006-08-25T19:34:46.897482Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='86.128.191.16' dst_ipn='192.168.1.2' srcport='3527' dstport='135' packets='3' len='186' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//190.038.033.017.02201-192.168.001.002.59049c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2006-08-25T19:33:57.342233Z' endtime='2006-08-25T19:33:57.342233Z' mac_daddr='00:04:76:96:7b:da' mac_saddr='00:16:e3:19:27:15' family='2' src_ipn='190.38.33.17' dst_ipn='192.168.1.2' srcport='2201' dstport='59049' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:07.376876Z' endtime='2006-08-25T19:34:16.374611Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.224.143.119' srcport='3728' dstport='3650' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.737974Z' endtime='2006-08-25T19:34:06.737974Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='172.164.231.151' srcport='4048' dstport='32656' packets='1' len='74' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2006-08-25T19:35:36.112787Z' endtime='2006-08-25T19:35:45.111121Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.51.91.234' srcport='4352' dstport='2282' packets='3' len='222' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.04360-068.056.113.162.03573</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:06.871061Z' endtime='2006-08-25T19:34:07.014423Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='68.56.113.162' srcport='4360' dstport='3573' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.01695-072.201.060.177.02562</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:36:06.849235Z' endtime='2006-08-25T19:36:07.022218Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='72.201.60.177' srcport='1695' dstport='2562' packets='3' len='218' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/mj/CPE243_HOA8/extractedPCAP//192.168.001.002.02717-069.244.172.248.03301</filename>
+      <filesize>12</filesize>
+      <tcpflow startime='2006-08-25T19:34:36.112922Z' endtime='2006-08-25T19:34:36.247188Z' mac_daddr='00:16:e3:19:27:15' mac_saddr='00:04:76:96:7b:da' family='2' src_ipn='192.168.1.2' dst_ipn='69.244.172.248' srcport='2717' dstport='3301' packets='3' len='218' />
+    </fileobject>
+  </configuration>
+  <summary />
+  <open_fds_at_end>51</open_fds_at_end>
+  <max_open_flows>54</max_open_flows>
+  <total_flows>202</total_flows>
+  <flow_map_size>93</flow_map_size>
+  <total_packets>1103</total_packets>
+  <rusage>
+    <utime>0.019458</utime>
+    <stime>0.019458</stime>
+    <maxrss>16260</maxrss>
+    <minflt>1536</minflt>
+    <majflt>36</majflt>
+    <nswap>0</nswap>
+    <inblock>3904</inblock>
+    <oublock>1600</oublock>
+    <clocktime>0.014832</clocktime>
+  </rusage>
+</dfxml>

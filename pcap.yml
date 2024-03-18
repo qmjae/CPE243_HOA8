@@ -1,0 +1,35 @@
+---
+- hosts: all
+  become: true
+  become_user: root
+  tasks:
+
+    - name: Updating and upgrading the operating system
+      apt:
+        name: "*"
+        state: latest
+        update_cache: true
+        
+    - name: Collect PCAP file from server
+      fetch:
+        src: /home/mj/pcaps/SkypeIRC.pcap
+        dest: /home/mj/CPE243_HOA8/collectedPCAP/
+        flat: yes
+
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+  
+    - name: Extract executable from PCAP file
+      command: "tcpflow -r /home/mj/CPE243_HOA8/collectedPCAP/SkypeIRC.pcap -o /home/mj/CPE243_HOA8/extractedPCAP/"
+      args:
+        creates: /home/mj/CPE243_HOA8/extractedPCAP/executable.exe
+        
+    - name: Debug .exe file
+      command: "cat /home/mj/CPE243_HOA8/extractedPCAP/report.xml"
+      register: cat_output
+      changed_when: false
+
+    - debug:
+        var: cat_output.stdout_lines
